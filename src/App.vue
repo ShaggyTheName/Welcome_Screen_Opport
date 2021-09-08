@@ -173,33 +173,33 @@ body {
   /* Footer */
 
 .footer {
-  position: relative;
+  position: fixed;
   width: 1080px;
   height: 130px;
-  left: 0px;
-  top: 1790px;
   margin: auto;
   background: #FFFFFF;
   display: flex;
+  bottom: 0;
+      padding-inline-start: 0px;
 }
 
   /* Assets */
 
 .bild1 {
-  width: 230px;
-  height: 44px;
+  width: 300px;
+  height: auto;
   margin: auto;
 }
 
 .bild2 {
-  width: 296px;
-  height: 55px;
+  width: 250px;
+  height: auto;
   margin: auto;
 }
 
 .bild3 {
-  width: 273px;
-  height: 52px;
+  width: 250px;
+  height: auto;
   margin: auto;
 }
 
