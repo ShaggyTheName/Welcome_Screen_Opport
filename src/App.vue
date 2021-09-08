@@ -37,7 +37,7 @@ export default {
         title: "Welcome to Opportunity",
         currentDate : new Date().toISOString().slice(8,10)+"."+new Date().toISOString().slice(5,7)+"."+new Date().toISOString().slice(0,4),
         uhrzeit: "14.00 Uhr",
-        gsheet_url: "https://sheets.googleapis.com/v4/spreadsheets/1qLZJwuNv3QmwGhSj1wZZbuXNOkDKN-Ha7fo0Ca_uVVU/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyBesotaNgSaTUIhrSKjEaExdi-ksKInhoE",
+        gsheet_url: "https://docs.google.com/spreadsheets/d/1e8eBMjNFXhCUSdZtVrVdAWSA-37POi48i_XsyYAy8Hw/edit#gid=0",
         entries: [],
       };
     },
