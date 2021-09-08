@@ -18,9 +18,9 @@
         </ul></li>
 
     <ul class="footer">
-      <img class="bild1" src="./assets/STZH_SEB_Logo.png" alt="alternativer_text" />
-      <img class="bild2" src="./assets/Opportunity.png" alt="alternativer_text" />
-      <img class="bild3" src="./assets/SAG_Logo_De.png" alt="alternativer_text" />
+      <img class="bild1" src="./assets/Opportunity.png" alt="alternativer_text" />
+      <img class="bild2" src="./assets/SAG_Logo_De.png" alt="alternativer_text" />
+      <img class="bild3" src="./assets/STZH_SEB_Logo.png" alt="alternativer_text" />
     </ul>
     </body>
   </div>
@@ -180,15 +180,16 @@ body {
   background: #FFFFFF;
   display: flex;
   bottom: 0;
-      padding-inline-start: 0px;
+  padding-inline-start: 0px;
 }
 
   /* Assets */
 
 .bild1 {
-  width: 220px;
+  width: 200px;
   height: auto;
   margin: auto;
+
 }
 
 .bild2 {
