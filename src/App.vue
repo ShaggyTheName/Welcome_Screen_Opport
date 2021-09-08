@@ -186,19 +186,19 @@ body {
   /* Assets */
 
 .bild1 {
-  width: 300px;
+  width: 220px;
   height: auto;
   margin: auto;
 }
 
 .bild2 {
-  width: 250px;
+  width: 200px;
   height: auto;
   margin: auto;
 }
 
 .bild3 {
-  width: 250px;
+  width: 200px;
   height: auto;
   margin: auto;
 }
