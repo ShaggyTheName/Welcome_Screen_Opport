@@ -37,7 +37,7 @@ export default {
         title: "Welcome to Opportunity",
         currentDate : new Date().toISOString().slice(8,10)+"."+new Date().toISOString().slice(5,7)+"."+new Date().toISOString().slice(0,4),
         uhrzeit: "14.00 Uhr",
-        gsheet_url: "https://docs.google.com/spreadsheets/d/1e8eBMjNFXhCUSdZtVrVdAWSA-37POi48i_XsyYAy8Hw/edit#gid=0",
+        gsheet_url: "https://sheets.googleapis.com/v4/spreadsheets/1e8eBMjNFXhCUSdZtVrVdAWSA-37POi48i_XsyYAy8Hw/values:batchGet?ranges=A1%3AE100&valueRenderOption=FORMATTED_VALUE&key=AIzaSyBe3CBCduP_Ni5f6qNyt40nexBHvtGHWic",
         entries: [],
       };
     },
@@ -49,6 +49,7 @@ export default {
     methods: {
       getData() {
         axios.get(this.gsheet_url).then((response) => {
+          console.log(response.data.valueRanges[0].values);
           this.entries = response.data.valueRanges[0].values;
         })
       },
